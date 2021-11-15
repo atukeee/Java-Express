@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Java Express | Menu</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png">
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+     <!-- Preloader -->
+     <div id="preloader">
+        <div class="jexpress-load"></div>
+        <div class="preload-icons">
+            <img class="preload-1" src="img/core-img/preload-1.png" alt="">
+            <img class="preload-2" src="img/core-img/preload-2.png" alt="">
+            <img class="preload-3" src="img/core-img/preload-3.png" alt="">
+        </div>
+    </div>
+
+    <!-- ***** Search Form Area ***** -->
+    <div class="jexpress-search-form d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="search-close-btn" id="closeBtn">
+                        <i class="pe-7s-close-circle" aria-hidden="true"></i>
+                    </div>
+                    <form action="#" method="get">
+                        <input type="search" name="jexpressSearch" id="search" placeholder="Search Your Favourite Dish ...">
+                        <input type="submit" class="d-none" value="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area" id="header">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 h-100">
+                    <nav class="h-100 navbar navbar-expand-lg align-items-center">
+                        <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jexpressNav" aria-controls="jexpressNav" aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
+                        <div class="collapse navbar-collapse" id="jexpressNav">
+                            <ul class="navbar-nav ml-auto" id="jexpressMenu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="menu.html">Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="order.html">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <!-- Search Btn -->
+                            <div class="jexpress-search-btn">
+                                <a id="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+
+    <!-- ***** Breadcumb Area Start ***** -->
+    <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/hero-2.jpg)">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-content">
+                        <h2>Menu</h2>
+                        <a href="#menu" id="menubtn" class="btn jexpress-btn"><span></span> Special</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Breadcumb Area End ***** -->
+
+    <!-- ***** Menu Area Start ***** -->
+    <div class="jexpress-food-menu section-padding-150 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="food-menu-title">
+                        <h2>Menu</h2>
+                    </div>
+                </div>
+
+                <div class="col-10">
+                    <div class="jexpress-projects-menu">
+                        <div class="text-center portfolio-menu">
+                            <button class="active" data-filter="*">All</button>
+                            <button data-filter=".drinks">Drinks</button>
+                            <button data-filter=".lunch">food</button>
+                        </div>
+                    </div>
+
+                    <div class="jexpress-menu-slides owl-carousel clearfix">
+
+                        <div class="jexpress-portfolio clearfix">
+                            <!-- Hot Drinks First Section Start -->
+                            <!-- Hot Brewed Coffee -->
+                            <div class="single_menu_item drinks wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-1(2).png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Hot Brewed Coffee</h3>
+                                        <p>Enjoy your hot coffee black or with your choice of sugar, sweetener, and dairy or creamer. </p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P135.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Hot Caramel Latte -->
+                            <div class="single_menu_item drinks wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-3(2).png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Hot Caramel Latte</h3>
+                                        <p>Enjoy your hot coffee black or with your choice of sugar, sweetener, and dairy or creamer.  </p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P175.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Hot Chocolate -->
+                            <div class="single_menu_item drinks wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-4.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Hot Chocolate</h3>
+                                        <p>Taste the delicious Hot Chocolate. Made with steamed whole milk and rich chocolate syrup. </p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P180.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Matcha Latte -->
+                            <div class="single_menu_item drinks wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-5.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Hot Matcha Green Latte</h3>
+                                        <p>Smooth and creamy matcha sweetened just right and served with milk over ice. Tasted so good. </p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P170.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <!-- Hot Cafe Mocha -->
+                            <div class="single_menu_item drinks wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-6.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Hot Cafe Mocha</h3>
+                                        <p>Enjoy this hot mocha treat, full of earthy chocolaty flavor and rich creaminess. So good to try. </p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P170.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <!-- Hot Drinks First Section End -->
+
+                            <!-- Food First Section Start -->
+                            <!-- JExpress Club Sandwich -->
+                            <div class="single_menu_item lunch wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-11.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Club Sandwich</h3>
+                                        <p>A taste-tempting combination of our famous lean and tender, sliced chicken, sliced roast beef; and savory, sliced ham .</p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P290.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Spam and Egg Sandwich -->
+                            <div class="single_menu_item lunch wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-17.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Spam Sandwich</h3>
+                                        <p>Our Spam Sandwich  is a joyous marriage of savoury sliced spam and egg that goest best with honey mustard sauce and vagetables. </p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P295.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Sausage Sandwich -->
+                               <div class="single_menu_item lunch wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-18.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Sausage Sandwich</h3>
+                                        <p>Imagine freshly baked bread stuffed with tender sliced chicken, sausage, melted cheese, and tasty vegetables and condiments. </p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P295.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <!-- Bacon 4Cheese Sandwich -->
+                             <div class="single_menu_item lunch wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-19.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Bacon 4Cheese Sandwich</h3>
+                                        <p>Imagine freshly baked bread stuffed with tender sliced bacon, melted cheese, and tasty vegetables and condiments. </p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P260.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <!-- Sausage Sandwich -->
+                             <div class="single_menu_item lunch wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-20.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Tuna Sandwich</h3>
+                                        <p>Tuna and creamy mayonnaise is lovingly blended together to make one of the world’s favorite comfort foods.  </p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P250.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- Food First Section End -->
+
+                        <!-- Cold Drinks Second Section Start -->
+                        <div class="jexpress-portfolio clearfix">
+                           
+                              <!-- Iced Mocha -->
+                              <div class="single_menu_item drinks wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-2.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Iced Mocha</h3>
+                                        <p>Refresh and relax with this iced mocha treat full of chocolaty flavor and rich creaminess.Comes with coffee goodness, surely addictive </p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P180.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Iced Americano -->
+                            <div class="single_menu_item drinks wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-7.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Iced Americano</h3>
+                                        <p>Espresso shots topped with cold water produce a light layer of crema, then served over ice. Wonderfully rich cup with depth and nuance. </p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P155.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Iced Matcha Green Latte -->
+                            <div class="single_menu_item drinks wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-8.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Iced Matcha Green Latte</h3>
+                                        <p>Smooth and creamy matcha sweetened just right and served with milk over ice. Green has never tasted so good. Boost your Creativity!</p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P185.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Cappucino Frappe -->
+                            <div class="single_menu_item drinks wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-9.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Cappucino Frappe</h3>
+                                        <p>We take Frappe roast coffee and vanilla bean powder, combine them with milk and ice, topped with whipped cream. Tastes like happiness.</p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P190.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Berry & Pomegranate Green Tea -->
+                             <div class="single_menu_item drinks wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-10.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Berry & Pomegranate Green Tea</h3>
+                                        <p>Take a sip of your favorite Java Express Berry & Pomegranate Green Tea! Enjoy a fruit-filled drink to accompany you today. Have a great day! </p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P150.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+                         <!-- Drinks Second Section Start -->
+                        
+                         <!-- Food Second Gallery Item -->
+                            <!-- Classic Corned Beef -->
+                            <div class="single_menu_item lunch wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-12.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Classic Corned Beef</h3>
+                                        <p>Make your breakfast better with Java Express Classic Corned Beef. Order yours today and experience Hassle-Free Delivery.</p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P175.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Beef Tapa -->
+                            <div class="single_menu_item lunch wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-13.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Beef Tapa</h3>
+                                        <p>Dive into the temptation and order Java Express best-selling rice meal, Beef Tapa! Let it power you up and order now. </p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P180.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Chicken Alfredo Penne -->
+                            <div class="single_menu_item lunch wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-14.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Chicken Alfredo Penne</h3>
+                                        <p>Irresistible Chicken Alfredo Penne! Have delicious food and thirst-quenching drinks delivered to your door step.</p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P360.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Mushroom Creamy Pesto Pasta -->
+                            <div class="single_menu_item lunch wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-15.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Mushroom Creamy Pesto Pasta</h3>
+                                        <p>Irresistible Mushroom Creamy Pesto Pasta! Have delicious food and thirst-quenching drinks delivered to your door step.</p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P300.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Sausage and Garlic Pasta -->
+                            <div class="single_menu_item lunch wow fadeInUp">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="dish-thumb">
+                                        <img src="img/menu-img/dish-16.png" alt="">
+                                    </div>
+                                    <div class="dish-description">
+                                        <h3>Sausage and Garlic Pasta</h3>
+                                        <p>Irresistible Sausage and Garlic Pasta! Have delicious food and thirst-quenching drinks delivered to your door step.</p>
+                                    </div>
+                                    <div class="dish-value">
+                                        <h3>P355.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Food Second Gallery Item -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Menu Area End ***** -->
+
+    <!-- ***** Special Menu Area Start ***** -->
+    <section class="jexpress-dish-menu clearfix" id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 menu-heading">
+                    <div class="section-heading text-center">
+                        <h2>Special</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="jexpress-single-dish wow fadeInUp" data-wow-delay="0.5s">
+                        <img src="img/menu-img/dish-1.png" alt="">
+                        <div class="dish-info">
+                            <h6 class="dish-name">Hot Brewed Coffee</h6>
+                            <p class="dish-price">P135</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="jexpress-single-dish wow fadeInUp" data-wow-delay="1s">
+                        <img src="img/menu-img/dish-2.png" alt="">
+                        <div class="dish-info">
+                            <h6 class="dish-name">Vanilla Frappe</h6>
+                            <p class="dish-price">P180</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="jexpress-single-dish wow fadeInUp" data-wow-delay="1.5s">
+                        <img src="img/menu-img/dish-3.png" alt="">
+                        <div class="dish-info">
+                            <h6 class="dish-name">Hot Caramel Latte</h6>
+                            <p class="dish-price">P175</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Special Menu Area End ***** -->
+
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/others/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+</body>
